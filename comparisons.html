@@ -29,11 +29,11 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" style="color: #6D8092">
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item active" href="max_temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -53,58 +53,49 @@
   <!-- Content Section -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
+      <div>
         <!-- Left box  -->
-        <div class="box" style="padding-bottom: 5px;">
-          <h3 class="title">Max Temperature</h3>
-          <hr>
-          <img src="..\WebVisualizations\Max_Temp.png" alt="Max Temperature Graph">
-          <p>This Study shows very strong correlation bitween Temperature and Latitude, Temperature is higher when you get closser 
-            to the Equator from both north and south, that is why we concluded that there is relation bitween high temperature and Latitude.</p>
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
         <div class="box">
-          <h5 class="title">Visualizations</h5>
+          <h3 class="title">Comparison: Latitude vs X</h3>
           <hr>
-
-
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+          <p>Click any plot to get an in-depth analysis.</p>
+          <div class="container" style="padding-bottom: 40px;">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Max Temperature</div>
                 <a href="max_temperature.html">
-                  <img class="panel active" src="..\WebVisualizations\Max_Temp.png" alt="Max Temperature Image">
+                  <img class="panel" src="Max_Temp.png" alt="Max Temperature Image">
                 </a>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Humidity</div>
                 <a href="humidity.html">
-                  <img class="panel" src="..\WebVisualizations\Humidity.png" alt="Humidity Graph">
+                  <img class="panel" src="Humidity.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
 
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Cloudiness</div>
                 <a href="cloudiness.html">
-                  <img class="panel" src="..\WebVisualizations\Cloudiness.png" alt="Cloudiness Graph">
+                  <img class="panel" src="Cloudiness.png" alt="Cloudiness Graph">
                 </a>
+
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Wind Speed</div>
                 <a href="wind_speed.html">
-                  <img class="panel" src="..\WebVisualizations\Wind_Speed.png" alt="Wind Speed Graph">
+                  <img class="panel" src="Wind_Speed.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
   </div>
+
   <!-- Footer Section -->
   <footer>
     <div class="footer">Copyright &copy; Mohammed Ahmed 2020</div>
